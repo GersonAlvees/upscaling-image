@@ -1,0 +1,49 @@
+### Ambientes Virtuais (Virtual Environments) ###
+# Ignorar ambientes virtuais mais comuns
+.venv
+venv
+env
+/venv
+/env
+*.egg-info/
+.pyenv
+.python-version
+VENV/
+ENV/
+
+### Bytecode e Cache do Python ###
+# Ignorar arquivos bytecode do Python
+__pycache__/
+*.pyc
+*.$py.class
+
+# Outros arquivos e diretórios de cache
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.tox/
+.coverage
+.cache/
+.ipynb_checkpoints
+
+### Arquivos de Configuração com Segredos (Secrets) ###
+# Arquivos de ambiente/configuração que podem conter chaves de API, senhas, etc.
+.env
+.flaskenv
+secrets.ini
+config.local.py
+settings.local.py
+
+### Logs, Bancos de Dados de Teste e Uploads ###
+*.log
+*.sqlite
+*.sqlite3
+/uploads/ # Se você tiver um diretório para uploads de arquivos
+
+### IDEs (Opcional, mas recomendado) ###
+# Visual Studio Code
+.vscode/
+
+# PyCharm/IntelliJ
+.idea/
